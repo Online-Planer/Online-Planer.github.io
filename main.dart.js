@@ -73116,8 +73116,8 @@ if(n==null)n=""
 A.fD("Username: "+n)
 p=q.RB(n)
 o=p.a
-A.fD("User: "+o)
-s=o!==""?3:4
+A.fD("Gotten user: "+o)
+s=o.length!==0?3:4
 break
 case 3:A.fD("In here")
 s=5
